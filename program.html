@@ -3,72 +3,159 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <title>CUSHY~~</title>
 
   <!-- CSS  -->
   
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
 </head>
 <body>
   <nav class="#00897b teal darken-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">CUSHY </a>
-      <ul class="right hide-on-med-and-down">
-       
-        <div class="chip">
-        <img src="default.png" alt="Contact Person">
-            jiyeonO
-        </div>
-      </ul>
-
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo">CUSHY </a>
+        <ul class="right hide-on-med-and-down">
+          <li><div class="chip">
+            <img src="default.png" alt="Contact Person">
+              jiyeonO
+          </div>
+          </li>
+          <li>
+         <i class="material-icons">power_settings_new</i>
+          </li>
+         
+        </ul>
         <ul id="slide-out" class="side-nav fixed">
-       <li><a href="attendance.html">출석 관리</a></li>
-        <li><a href="client.html">클라이언트 관리 </a></li>
-        <li><a href="program.html">프로그램</a></li>
-        <li><a href="total.html">통계</a></li>
-        </li><a href="login.html" id="download-button" class="btn-large waves-effect waves-light teal">login</a></li>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+          <li class="profile"><img src="default.png"></img></li>
+          <li><a href="attendance.html">출석 관리</a></li>
+          <li><a href="client.html">클라이언트 관리 </a></li>
+          <li><a href="program.html">프로그램</a></li>
+          <li><a href="total.html">통계</a></li>
+          </li><a href="login.html" id="download-button" class="btn-large waves-effect waves-light teal">login</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+     </div>
+    </nav>
+
   <div class="#e0f2f1 teal lighten-5">
   <div class="row hide-on-small-only">
       <div class="col m6 s12 l6">
+        <h1 class="teal-text main-title">Integration used to take forever. </br> Now it takes seconds.</h1>
+       
         <div class="row">
           <div class="col m5">
-           
+            <a href="login.html" class="btn waves-effect waves-light teal darken-3 segment-track-link"><span class="dark-grey-text">Start for free</span></a>
           </div>
-         <div class="card">
-  <div class="card-header">
-    <img src="http://placehold.it/350x150"/>
-  </div>
-  <div class="card-content">
-    <h3>NAME </h3>
-    <h4>profile goes here </h4>
-    <p>And now you're back from outer space, / I just walked in to find you here with that sad look upon your face, / I should've changed that stupid lock, I should have made you leave your key, / If I'd have known for just one second you'd be back to bother me. / Go on, now go! Walk out the door...</p>
-  </div>
-  <div class="card-footer">
-    <ul>
-      <li>
-        <a href="#"><i class="fa fa-codepen"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fa fa-stack-overflow"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fa fa-github"></i></a>
-      </li>
-    </ul>
-  </div>
-</div>
+          
         </div>
       </div>
       <div class="col m6 s12 l6 center-align">        
-        <!-- <img class="hero-editor z-depth-1" src="/images/home_hero_zoomed_2.png"/> -->
+        <h5> attendance graph goes here</h5>
       </div>
- 
+    </div>  
   </div>
+ 
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-text"><i class="material-icons">today</i></h2>
+            <h5 class="center">오늘의 프로그램</h5>
+
+            <p class="light">
+              <table>
+        <thead>
+          <tr>
+              <th data-field="id">프로그램</th>
+              <th data-field="name">강사</th>
+              <th data-field="price">시간 </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>종이접기</td>
+            <td>김길동</td>
+            <td>2:00~3:00</td>
+          </tr>
+          <tr>
+            <td>한국무용</td>
+            <td>홍길동</td>
+            <td>4:00~5:00</td>
+          </tr>
+          <tr>
+            <td>요가</td>
+            <td>고길동</td>
+            <td>5:00~6:00</td>
+          </tr>
+        </tbody>
+      </table>
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="material-icons">group</i></h2>
+            <h5 class="center">클라이언트 관리 </h5>
+
+            <table class="responsive-table">
+        <thead>
+          <tr>
+              <th data-field="id">이름</th>
+              <th data-field="name">최근출석</th>
+              <th data-field="price">결석일수 </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>김길동</td>
+            <td>16.12.31</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>홍길동</td>
+            <td>17.1.3</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>고길동</td>
+            <td>17.2.3</td>
+            <td>10</td>
+          </tr>
+          
+        </tbody>
+      </table>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="material-icons">grade</i></h2>
+            <h5 class="center">복지관 공지사항 </h5>
+            <p class="flow-text">이곳에는 복지관의 공지사항이 나타나게 됩니다. </p>
+
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+
+    <div class="section">
+
+    </div>
+  </div>
+
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
