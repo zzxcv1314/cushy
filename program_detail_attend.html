@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>CUSHY~~</title>
+
+  <!-- CSS  -->
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+</head>
+<body>
+  <nav class="#00897b teal darken-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo">CUSHY </a>
+        <ul class="right hide-on-med-and-down">
+          <li><div class="chip">
+            <img src="default.png" alt="Contact Person">
+              jiyeonO
+          </div>
+          </li>
+          <li>
+         <i class="material-icons">power_settings_new</i>
+          </li>
+         
+        </ul>
+        <ul id="slide-out" class="side-nav fixed">
+          <ul id="dropdown1" class="dropdown-content">
+          <li><a href="attendance_today.html">오늘의 출결</a></li>
+          <li><a href="attendance_absence.html">장기결석자 관리 </a></li>
+          <li><a href="attendance_term.html">기간별 출석관리  </a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+          <li><a href="client_list.html">클라이언트 목록</a></li>
+          <li><a href="client_enroll.html">클라이언트 등록 </a></li>
+          <li><a href="client_detail.html">클라이언트 세부보기  </a></li>
+        </ul>
+          <li class="profile">
+            <img src="default.png"></img></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">출결관리 <i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown2">클라이언트  <i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="program.html">프로그램 </a></li>
+          <li><a href="total.html">통계</a></li>
+              <!-- Dropdown Trigger -->
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+     </div>
+    </nav>
+
+  <div class="#e0f2f1 teal lighten-5">
+  <div class="row hide-on-small-only">
+      <div class="col s12">
+        <h4>출석체크</h4>
+        <a class="btn" onclick="Materialize.toast('쨘!', 4000)">프로그램 명</a><br><br>
+        <div class="row col s6">
+         <img src="http://placehold.it/400x400">
+        </div>
+        <div class="col s6">
+         <h1>17/50</h1> 
+         <a class="btn" onclick="Materialize.toast('쨘!', 4000)">인식결과 확인</a><br><br>
+         <div class="col s3">
+           <br>
+          <img src="http://placehold.it/100x100">
+         </div>
+         <div class="col s4">
+          <p> 1. 성명</p>
+          <p> 2. 프로그램명</p>
+          <p> 3. 출석확인</p>
+         </div>
+        </div>
+      
+        </div>
+    </div>
+    <table class="responsive-table">
+        <thead>
+          <tr>
+              <th data-field="no">No</th>
+              <th data-field="status">상태 </th>
+              <th data-field="program">프로그램명</th>
+              <th data-field="reponse">담당복지사</th>
+              <th data-field="category">카테고리 </th>
+            
+              <th data-field="photo">사진</th>
+              <th data-field="name">성명</th>
+              <th data-field="phone">연락처</th>
+              <th data-field="noshow">결석률</th>
+              <th data-field="latestshow">출석시간</th>
+
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>결석</td>
+            <td>노인에어로빅</td>
+            <td>장복지</td>
+            <td>생활체육</td>
+            <td>**</td>
+            <td>김할머니</td>
+            <td>010-2223-2344</td>
+            <td>10%</td>
+            <td>07:05</td>
+          </tr>
+         <tr>
+            <td>2</td>
+            <td>결석</td>
+            <td>노인에어로빅</td>
+            <td>김복지</td>
+            <td>생활체육</td>
+            <td>**</td>
+            <td>강할머니</td>
+            <td>010-2223-2344</td>
+            <td>20%</td>
+            <td>07:05</td>
+          </tr>
+         
+          
+        </tbody>
+      </table>
+    </div>  
+    
+  </div>
+      
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+          
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
