@@ -6,68 +6,95 @@
   <title>CUSHY~~</title>
 
   <!-- CSS  -->
-  
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  
+
 </head>
 <body>
-  <nav class="#00897b teal darken-1" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo">CUSHY </a>
-        <ul class="right hide-on-med-and-down">
-          <li><div class="chip">
-            <img src="default.png" alt="Contact Person">
-              jiyeonO
-          </div>
-          </li>
-          <li>
-         <i class="material-icons">power_settings_new</i>
-          </li>
-         
-        </ul>
-        <ul id="slide-out" class="side-nav fixed">
-          <ul id="dropdown1" class="dropdown-content">
-          <li><a href="attendance_today.html">오늘의 출결</a></li>
-          <li><a href="attendance_absence.html">장기결석자 관리 </a></li>
-          <li><a href="attendance_term.html">기간별 출석관리  </a></li>
-        </ul>
-        <ul id="dropdown2" class="dropdown-content">
-          <li><a href="client_list.html">클라이언트 목록</a></li>
-          <li><a href="client_enroll.html">클라이언트 등록 </a></li>
-          <li><a href="client_detail.html">클라이언트 세부보기  </a></li>
-        </ul>
-          <li class="profile">
-            <img src="default.png"></img></li>
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">출결관리 <i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown2">클라이언트  <i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a href="program.html">프로그램 </a></li>
-          <li><a href="total.html">통계</a></li>
-              <!-- Dropdown Trigger -->
-        </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-     </div>
-    </nav>
+<nav class="#00897b teal darken-1" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="index.html" class="brand-logo">CUSHY </a>
+      <ul class="right hide-on-med-and-down">
+        <li><div class="chip">
+          <img src="default.png" alt="Contact Person">
+            jiyeonO
+        </div>
+        </li>
+        <li>
+          <i class="material-icons">power_settings_new</i>
+        </li>
+      </ul>
+      <ul class="side-nav fixed" id="slide-out" style="color:black;">
+        <li class="profile">
+            <img src="default.png">
+        </li>
+        <li>
+          <ul class="collapsible collapsible-accordion" data-collapsible="expandable">
+            <li>
+              <div class="collapsible-header" style="display:flex; padding-left:35px;"><i class="material-icons right">arrow_drop_down</i>출결관리</div>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="attendance_today.html">오늘의 출결</a></li>
+                  <li><a href="attendance_absence.html">장기결석자 관리 </a></li>
+                  <li><a href="attendance_term.html">기간별 출석관리  </a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header" style="display:flex; padding-left:35px"><i class="material-icons right">arrow_drop_down</i>클라이언트</div>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="client_list.html">클라이언트 목록</a></li>
+                  <li><a href="client_enroll.html">클라이언트 등록</a></li>
+                  <li><a href="client_detail.html">클라이언트 세부보기</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header" style="display:flex; padding-left:35px"><i class="material-icons right">arrow_drop_down</i>프로그램</div>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="attendance_today.html">프로그램</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header" style="display:flex; padding-left:35px"><i class="material-icons right">arrow_drop_down</i>통계</div>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="attendance_today.html">통계</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+
 
   <div class="#e0f2f1 teal lighten-5">
   <div class="row hide-on-small-only">
       <div class="col m6 s12 l6">
         <h1 class="teal-text main-title">Integration used to take forever. </br> Now it takes seconds.</h1>
-       
+
         <div class="row">
           <div class="col m5">
             <a href="login.html" class="btn waves-effect waves-light teal darken-3 segment-track-link"><span class="dark-grey-text">Start for free</span></a>
           </div>
-          
+
         </div>
       </div>
-      <div class="col m6 s12 l6 center-align">        
+      <div class="col m6 s12 l6 center-align">
         <h5> attendance graph goes here</h5>
       </div>
-    </div>  
+    </div>
   </div>
- 
+
 
 
   <div class="container">
@@ -142,7 +169,7 @@
             <td>17.2.3</td>
             <td>10</td>
           </tr>
-          
+
         </tbody>
       </table>
           </div>
@@ -154,7 +181,7 @@
             <h5 class="center">복지관 공지사항 </h5>
             <p class="flow-text">이곳에는 복지관의 공지사항이 나타나게 됩니다. </p>
 
-            
+
           </div>
         </div>
       </div>
@@ -180,7 +207,7 @@
           <h5 class="white-text">Settings</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
-          
+
           </ul>
         </div>
         <div class="col l3 s12">
@@ -188,7 +215,7 @@
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
             <li><a class="white-text" href="#!">Link 2</a></li>
-           
+
           </ul>
         </div>
       </div>
