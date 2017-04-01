@@ -33,6 +33,7 @@
         <li class="profile">
             <img src="default.png">
         </li>
+        <li><a href="mypage.html">jiyeon0 님의 my page</a></li>
         <li>
           <ul class="collapsible collapsible-accordion" data-collapsible="expandable">
             <li>
@@ -102,6 +103,7 @@
         <div class="col l12 m12 s12">
           <canvas id="myChart"></canvas>
         </div>
+        <!-- chart.JS script labels: 가로축, datasets: 하나의 정보 세트 -->
         <script>
           var ctx = document.getElementById('myChart').getContext('2d');
           var myChart = new Chart(ctx, {
@@ -208,8 +210,33 @@
           <div class="icon-block">
             <h2 class="center"><i class="material-icons">grade</i></h2>
             <h5 class="center">복지관 공지사항 </h5>
-            <p class="flow-text">이곳에는 복지관의 공지사항이 나타나게 됩니다. </p>
+            <table class="responsive-table">
+        <thead>
+          <tr>
+              <th data-field="name">이름</th>
+              <th data-field="notice">공지사항</th>
+          </tr>
+        </thead>
 
+        <tbody>
+          <tr>
+            <td>운영자</td>
+            <td>긴급점검</td>
+          </tr>
+          <tr>
+            <td>운영자</td>
+            <td>정기점검</td>
+          </tr>
+          <tr>
+            <td>운영자</td>
+            <td>로그인 안 된다고 하지 마세요.</td>
+          </tr>
+          <tr>
+            <td>운영자</td>
+            <td>고소 하시려면 하시든가. </td>
+          </tr>
+        </tbody>
+      </table>
 
           </div>
         </div>
