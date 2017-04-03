@@ -13,7 +13,7 @@
 
 </head>
 <body>
-<nav class="#00897b teal darken-1" role="navigation">
+ <nav class="#00897b teal darken-1" role="navigation">
   <div class="nav-wrapper container">
     <a id="logo-container" href="index.html" class="brand-logo">CUSHY </a>
       <ul class="right hide-on-med-and-down">
@@ -77,92 +77,93 @@
     </div>
 </nav>
 
-    
-
-
-<div class="#e0f2f1 teal lighten-5">
+  <div class="#e0f2f1 teal lighten-5">
   <div class="row hide-on-small-only">
-      <div class="col s10">
-        <h4>클라이언트 등록</h4>
-        <div class="row">
-          <form class="col s12">
-            <div class="row">
-              <div class="input-field col s6">
-          성명 : <input id="name" type="text" class="validate">
-              </div>
-            <div class="row">
-              <div class="input-field col s6">
-          생년월일 : <input id="date" type="date" class="datepicker">
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s5">
-          성별 :
-          <form action="#">
-
-          <input name="group1" type="radio" id="female" />
-          <label for="female">여</label>
-
-
-          <input name="group1" type="radio" id="male" />
-          <label for="male">남</label>
-
-        </form>
-          </div>
+      <div class="col s9">
+      <h4>프로그램 세부 </h4>
+      <p>수업명 : 노인에어로빅 </p>
+      <p>상태 : <button>Active</button></p>
+      <div class="col s4">
+        <p>과목 : 음악</p>
+        <p>강의실 : 1020</p>
+        <p>시작시간 : 11:00</p>
+        <p>종료시간 : 11:50</p>
       </div>
-      <div class="row">
-        <div class="input-field col s6">
-          생활계층 : <input id="life" type="text" class="validate">
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s6">
-          연락처 : <input id="phone" type="text" class="validate">
-        </div>
-        <div class="input-field col s6">
-          보호자 연락처 : <input id="phone2" type="text" class="validate">
-        </div>
-      </div>
-       <div class="row">
-        <div class="input-field col s6">
-        담당복지사 : <input id="role" type="text" class="validate">
-        </div>
-         <div class="input-field col s6">
-        주소 : <input id="address" type="text" class="validate">
-        </div>
-      </div>
-      특이사항 :
-      <div class="row">
-        <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1">Textarea</label>
-        </div>
-      </div>
-       <form action="#">
-        <div class="file-field input-field">
-          <div class="btn">
-            <span>사진올리기</span>
-            <input type="file">
-          </div>
-          <div class="file-path-wrapper">
-            <input class="file-path validate" type="text">
-          </div>
-        </div>
-      </form>
-      <div class="center">
-    <button class="btn waves-effect waves-light" type="submit" name="action">등록하기
-    <i class="material-icons right">send</i>
+      <div class="col s5">
+          <a class="waves-effect waves-light btn">수강생추가 </a>
+          <a class="waves-effect waves-light btn">수업삭제</a><br> 
+          <p>학년 : 초등3</p>
+          <p>수업요일 : 월 수 </p>
+          <p>수강료 : 50,000원</p>
+          <a class="waves-effect waves-light btn"; href="program_detail_attend.html">출석체크</a>
+          </div>        
     </div>
-  </button>
-    </form>
+  
+  <div class="col s3">
+      <p>강사정보</p>
+      <img src="default.png"></img>
+      <p>오지연</p>
+      <p>information</p>
+      <p>id : zzxcv1314</p>
+      <p>대학교 : 건국대학교</p>
+      <p>전공 : 소프트웨어학과</p>
+  </div>
+     <div class="col s10">
+        <h4>수강생 목록 </h4>
+        <table class="responsive-table">
+        <thead>
+          <tr>
+              <th data-field="no">No</th>
+              <th data-field="program">프로그램명</th>
+              <th data-field="reponse">담당복지사</th>
+              <th data-field="category">카테고리 </th>
+              <th data-field="place">장소</th>
+              <th data-field="when">시간</th>
+              <th data-field="student">수강생</th>
+              <th data-field="last">진행시간</th>
+             
+              
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><a href = "program_list_detail.html">노인에어로빅</a></td>
+            <td>장복지</td>
+            <td>생활체육</td>
+            <td>세미나홀 A</td>
+            <td>월 6시</td>
+            <td>40</td>
+            <td>60분</td>
+          </tr>
+        <tr>
+            <td>2</td>
+            <td><a href = "program_list_detail.html">노인종이접기</a></td>
+            <td>김복지</td>
+            <td>공예</td>
+            <td>세미나홀 A</td>
+            <td>화6시</td>
+            <td>50</td>
+            <td>40분</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><a href = "program_list_detail.html">노인수영</a></td>
+            <td>오복지</td>
+            <td>생활체육</td>
+            <td>세미나홀 C</td>
+            <td>수 6시</td>
+            <td>40</td>
+            <td>60분</td>
+          </tr>
+
+        </tbody>
+      </table>
   </div>
 
-
-      </div>
-
-    </div>
   </div>
-
+   
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
